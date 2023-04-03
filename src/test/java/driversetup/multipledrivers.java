@@ -57,8 +57,6 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.model.Media;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.beust.jcommander.Parameter;
-import com.testing.framework.EmailUtils;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 
@@ -129,6 +127,7 @@ public class multipledrivers<EmailAttachment, PasswordAuthentification> {
 	public void teardown() throws Exception{
 		extent.flush();
 	}
+	
 		@Test
 		public String capturescreenshot(WebDriver driver) throws IOException {
 		File source = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
@@ -137,6 +136,7 @@ public class multipledrivers<EmailAttachment, PasswordAuthentification> {
 		FileUtils.copyFile(source, destination);
 		System.out.println("------file path----" +filepath);
 		return filepath;
+		
 		
 		
 	}

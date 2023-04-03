@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-29T10:37:31 IST" name="Suite" finished-at="2023-03-29T10:37:48 IST" duration-ms="17214">
+  <suite started-at="2023-04-03T15:40:51 IST" name="Suite" finished-at="2023-04-03T15:41:11 IST" duration-ms="19103">
     <groups>
     </groups>
-    <test started-at="2023-03-29T10:37:31 IST" name="Test" finished-at="2023-03-29T10:37:48 IST" duration-ms="17214">
+    <test started-at="2023-04-03T15:40:51 IST" name="Test" finished-at="2023-04-03T15:41:11 IST" duration-ms="19103">
       <class name="driversetup.multipledrivers">
-        <test-method is-config="true" signature="report()[pri:0, instance:driversetup.multipledrivers@5a45133e]" started-at="2023-03-29T10:37:30 IST" name="report" finished-at="2023-03-29T10:37:31 IST" duration-ms="292" status="PASS">
+        <test-method is-config="true" signature="report()[pri:0, instance:driversetup.multipledrivers@60bd273d]" started-at="2023-04-03T15:40:51 IST" name="report" finished-at="2023-04-03T15:40:51 IST" duration-ms="293" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- report -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:driversetup.multipledrivers@5a45133e]" started-at="2023-03-29T10:37:31 IST" name="setup" finished-at="2023-03-29T10:37:36 IST" duration-ms="5479" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:driversetup.multipledrivers@60bd273d]" started-at="2023-04-03T15:40:51 IST" name="setup" finished-at="2023-04-03T15:40:58 IST" duration-ms="6837" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,15 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginwebsite()[pri:0, instance:driversetup.multipledrivers@5a45133e]" started-at="2023-03-29T10:37:36 IST" name="loginwebsite" finished-at="2023-03-29T10:37:48 IST" duration-ms="11544" status="PASS">
+        <test-method signature="loginwebsite()[pri:0, instance:driversetup.multipledrivers@60bd273d]" started-at="2023-04-03T15:40:58 IST" name="loginwebsite" finished-at="2023-04-03T15:41:10 IST" duration-ms="12052" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginwebsite -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:driversetup.multipledrivers@5a45133e]" started-at="2023-03-29T10:37:48 IST" name="closebrowser" finished-at="2023-03-29T10:37:48 IST" duration-ms="161" status="PASS">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:driversetup.multipledrivers@60bd273d]" started-at="2023-04-03T15:41:10 IST" name="closebrowser" finished-at="2023-04-03T15:41:11 IST" duration-ms="164" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:driversetup.multipledrivers@5a45133e]" started-at="2023-03-29T10:37:48 IST" name="teardown" finished-at="2023-03-29T10:37:49 IST" duration-ms="695" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:driversetup.multipledrivers@60bd273d]" started-at="2023-04-03T15:41:11 IST" name="teardown" finished-at="2023-04-03T15:41:11 IST" duration-ms="754" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
